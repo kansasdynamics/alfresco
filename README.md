@@ -1,12 +1,26 @@
 # Alfresco Digital Business Platform
 https://www.alfresco.com/
 
-## Deployment Scripts
-Deploying **ACS Community** in RHEL/CentOS with Docker Compose  
-`sudo chmod +x deploy_acs_community.sh`  
-`. ./deploy_acs_community.sh`
+## Deploying **ACS Community** in RHEL/CentOS with Docker Compose  
 
-Deploying **ACS Enterprise** in RHEL/CentOS with Docker Compose  
+Make the script executable  
+`sudo chmod +x deploy_acs_community.sh`  
+
+Run the script  
+`. ./deploy_acs_community.sh`  
+
+Access the application  
+[http://<ip_address>:8080/share]()  
+  
+
+## Deploying **ACS Enterprise** in RHEL/CentOS with Docker Compose  
 *You must have valid Quay.io account credentials provided by Alfresco for the Enterprise edition*  
+
+Make the script executable  
 `sudo chmod +x deploy_acs_enterprise.sh`  
-`. ./deploy_acs_enterprise.sh`
+
+Run the script  
+`. ./deploy_acs_enterprise.sh`  
+
+Access the application  
+[http://<ip_address>:8080/share]()
