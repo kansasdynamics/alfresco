@@ -2,6 +2,9 @@
 https://www.alfresco.com/
 
 ## Deployment Scripts
-*Deploying ACS in CentOS8 with Docker Compose*
+**Deploying ACS Community in CentOS8 with Docker Compose**
+`sudo ./deploy_acs_community.sh`
 
-`sudo ./deploy_acs.sh`
+**Deploying ACS Enterprise in CentOS8 with Docker Compose**
+*You must have valid Quay.io account credentials provided by Alfresco for Enterprise edition*
+`sudo ./deploy_acs_enterprise.sh`
