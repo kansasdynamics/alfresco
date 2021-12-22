@@ -16,6 +16,9 @@ Access the application
 ## Deploying **ACS Enterprise** in RHEL/CentOS with Docker Compose  
 *You must have valid Quay.io account credentials provided by Alfresco for the Enterprise edition*  
 
+Login to quay.io using your credentials provided by Alfresco  
+`sudo docker login quay.io`  
+
 Make the script executable  
 `sudo chmod +x deploy_acs_enterprise.sh`  
 
