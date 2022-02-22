@@ -27,3 +27,15 @@ Run the script
 
 Access the application  
 [http://<ip_address>:8080/share]()
+
+## Installing ActiveMQ 5.16.0
+*ActiveMQ is a prerequisite for Alfresco 7.x*  
+
+Make the script executable  
+`sudo chmod +x install_activemq.sh`  
+
+Run the script  
+`. ./install_activemq.sh`  
+
+Access the ActiveMQ Console  
+[http://<ip_address>:8161/admin]()
