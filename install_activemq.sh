@@ -11,8 +11,8 @@ echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" | sudo tee -a
 wget https://archive.apache.org/dist/activemq/5.16.0/apache-activemq-5.16.0-bin.tar.gz
 sudo tar -zxvf apache-activemq-5.16.0-bin.tar.gz -C /opt
 sudo ln -s /opt/apache-activemq-5.16.0 /opt/activemq
-cd /opt/activemq/bin
-sudo ./activemq start
+cd /opt/activemq
+sudo ./bin/activemq start
 sudo systemctl enable activemq.service
 sudo systemctl start activemq.service
 sudo systemctl stop activemq.service
