@@ -13,6 +13,8 @@ sudo tar -zxvf apache-activemq-5.16.0-bin.tar.gz -C /opt
 sudo ln -s /opt/apache-activemq-5.16.0 /opt/activemq
 cd /opt/activemq
 sudo ./bin/activemq start
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
 sudo firewall-cmd --zone=public --permanent --add-port=8161/tcp
 sudo firewall-cmd --reload
 cd ~
