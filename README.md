@@ -39,3 +39,11 @@ Run the script
 
 Access the ActiveMQ Console  
 [http://<ip_address>:8161/admin]()
+
+## Installing PostgreSQL 9.2.24
+
+Make the script executable  
+`sudo chmod +x install_postgresql.sh`  
+
+Run the script  
+`. ./install_activemq.sh`  
